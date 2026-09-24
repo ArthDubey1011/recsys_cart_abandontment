@@ -1,0 +1,4 @@
+abandon_segment,users,avg_searches,avg_visits,avg_cart_adds,median_searches,pct_never_carted,avg_sessions
+low_abandon,24355,2.1,26.73,1.27,0.0,50.7,5.39
+moderate_abandon,12038,38.51,278.81,25.83,15.0,0.0,32.02
+high_abandon,10280,39.69,276.84,28.61,10.0,0.0,31.2

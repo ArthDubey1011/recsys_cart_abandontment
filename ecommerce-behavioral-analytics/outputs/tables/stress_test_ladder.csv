@@ -1,0 +1,4 @@
+comparison,ratio_of_means,ratio_of_medians
+All users: high vs low abandon (headline),18.88,
+Cart users only (>= 3 cart-adds),2.32,2.29
+"Cart users, searches per session",1.07,1.5

@@ -1,0 +1,380 @@
+{
+  "overview": {
+    "users": 46673,
+    "events_total": 9044310,
+    "events": {
+      "visit": 6853213,
+      "search": 922717,
+      "cart_add": 635890,
+      "purchase": 335771,
+      "cart_remove": 296719
+    },
+    "users_by_event": {
+      "visit": 36272,
+      "search": 24305,
+      "cart_add": 34325,
+      "purchase": 46673,
+      "cart_remove": 22628
+    },
+    "date_range": [
+      "2022-06-23 00:00:00",
+      "2022-12-08 00:00:00"
+    ]
+  },
+  "journey_stage_pct": {
+    "visit": 77.7,
+    "search": 52.1,
+    "cart_add": 73.5,
+    "purchase": 100.0,
+    "cart_remove": 48.5
+  },
+  "transitions_pct": {
+    "purchase->visit": 30.5,
+    "purchase->purchase": 65.2,
+    "purchase->search": 2.7,
+    "purchase->cart_add": 1.1,
+    "purchase->cart_remove": 0.5,
+    "visit->cart_add": 6.8,
+    "visit->visit": 81.4,
+    "visit->purchase": 1.1,
+    "visit->search": 9.2,
+    "visit->cart_remove": 1.4,
+    "cart_add->visit": 59.0,
+    "cart_add->cart_add": 21.6,
+    "cart_add->cart_remove": 7.7,
+    "cart_add->search": 8.5,
+    "cart_add->purchase": 3.2,
+    "search->visit": 75.1,
+    "search->search": 23.0,
+    "search->cart_remove": 0.4,
+    "search->cart_add": 1.3,
+    "search->purchase": 0.2,
+    "cart_remove->visit": 35.4,
+    "cart_remove->cart_add": 6.4,
+    "cart_remove->cart_remove": 48.9,
+    "cart_remove->search": 5.2,
+    "cart_remove->purchase": 4.2
+  },
+  "pct_purchases_after_cart_add": 77.3,
+  "cart": {
+    "cart_items": 450463,
+    "purchased_pct": 43.3,
+    "removed_pct": 40.5,
+    "unresolved_pct": 16.2,
+    "abandonment_pct": 56.7,
+    "abandonment_excl_last_14d_pct": 56.2,
+    "hours_to_purchase": {
+      "p50": 0.3,
+      "p75": 4.7,
+      "p90": 72.1,
+      "share_within_1h_pct": 66.4
+    }
+  },
+  "cohort_month1_repeat_pct": {
+    "2022-07-01": 28.7,
+    "2022-08-01": 24.7,
+    "2022-09-01": 28.1,
+    "2022-10-01": 28.5
+  },
+  "cohort_month1_repeat_avg_pct": 27.5,
+  "abandonment_by_cohort_range": [
+    51.8,
+    58.9
+  ],
+  "segments": [
+    {
+      "abandon_segment": "low_abandon",
+      "users": 24355,
+      "avg_searches": 2.1,
+      "avg_visits": 26.73,
+      "avg_cart_adds": 1.27,
+      "median_searches": 0.0,
+      "pct_never_carted": 50.7,
+      "avg_sessions": 5.39
+    },
+    {
+      "abandon_segment": "moderate_abandon",
+      "users": 12038,
+      "avg_searches": 38.51,
+      "avg_visits": 278.81,
+      "avg_cart_adds": 25.83,
+      "median_searches": 15.0,
+      "pct_never_carted": 0.0,
+      "avg_sessions": 32.02
+    },
+    {
+      "abandon_segment": "high_abandon",
+      "users": 10280,
+      "avg_searches": 39.69,
+      "avg_visits": 276.84,
+      "avg_cart_adds": 28.61,
+      "median_searches": 10.0,
+      "pct_never_carted": 0.0,
+      "avg_sessions": 31.2
+    }
+  ],
+  "frequency_segments": {
+    "repeat": 18856,
+    "high_frequency": 17905,
+    "one_time": 9912
+  },
+  "headline": {
+    "searches": {
+      "mean_a": 39.69,
+      "mean_b": 2.1,
+      "ratio_of_means": 18.88,
+      "median_a": 10.0,
+      "median_b": 0.0,
+      "welch_t": 36.26,
+      "welch_p": 3.8677869568554347e-271,
+      "mann_whitney_p": 0.0,
+      "n_a": 10280,
+      "n_b": 24355
+    },
+    "visits": {
+      "mean_a": 276.84,
+      "mean_b": 26.73,
+      "ratio_of_means": 10.36,
+      "median_a": 112.0,
+      "median_b": 8.0,
+      "welch_t": 43.61,
+      "welch_p": 0.0,
+      "mann_whitney_p": 0.0,
+      "n_a": 10280,
+      "n_b": 24355
+    }
+  },
+  "stress_test": {
+    "definition": "users with >= 3 cart-adds; high = removal rate >= 0.5, low = removal rate < 0.2",
+    "n_high": 8404,
+    "n_low": 6358,
+    "searches": {
+      "mean_a": 47.87,
+      "mean_b": 20.65,
+      "ratio_of_means": 2.32,
+      "median_a": 16.0,
+      "median_b": 7.0,
+      "welch_t": 19.51,
+      "welch_p": 1.8328029039839004e-83,
+      "mann_whitney_p": 5.1700112432575094e-179,
+      "n_a": 8404,
+      "n_b": 6358
+    },
+    "visits": {
+      "mean_a": 328.46,
+      "mean_b": 170.83,
+      "ratio_of_means": 1.92,
+      "median_a": 148.0,
+      "median_b": 86.0,
+      "welch_t": 19.47,
+      "welch_p": 2.5304720306541208e-83,
+      "mann_whitney_p": 1.0220141259249138e-154,
+      "n_a": 8404,
+      "n_b": 6358
+    },
+    "sessions": {
+      "mean_a": 36.29,
+      "mean_b": 21.28,
+      "ratio_of_means": 1.71,
+      "median_a": 23.0,
+      "median_b": 13.0,
+      "welch_t": 25.72,
+      "welch_p": 1.0009475754164914e-142,
+      "mann_whitney_p": 1.577379569723942e-201,
+      "n_a": 8404,
+      "n_b": 6358
+    },
+    "cart_adds": {
+      "mean_a": 34.61,
+      "mean_b": 13.68,
+      "ratio_of_means": 2.53,
+      "median_a": 14.0,
+      "median_b": 7.0,
+      "welch_t": 25.25,
+      "welch_p": 5.138948454771229e-137,
+      "mann_whitney_p": 0.0,
+      "n_a": 8404,
+      "n_b": 6358
+    },
+    "searches_per_session": {
+      "mean_a": 1.36,
+      "mean_b": 1.28,
+      "ratio_of_means": 1.07,
+      "median_a": 0.75,
+      "median_b": 0.5,
+      "welch_t": 1.99,
+      "welch_p": 0.04681062565383852,
+      "mann_whitney_p": 1.0939096607022799e-43,
+      "n_a": 8404,
+      "n_b": 6358
+    },
+    "visits_per_session": {
+      "mean_a": 9.9,
+      "mean_b": 10.37,
+      "ratio_of_means": 0.95,
+      "median_a": 6.380952380952381,
+      "median_b": 6.5,
+      "welch_t": -2.03,
+      "welch_p": 0.04255586952643587,
+      "mann_whitney_p": 0.08756372727107985,
+      "n_a": 8404,
+      "n_b": 6358
+    },
+    "spearman_removal_vs_searches": 0.21,
+    "spearman_removal_vs_searches_per_session": 0.103,
+    "spearman_removal_vs_cart_adds": 0.293
+  },
+  "stress_ladder": [
+    {
+      "comparison": "All users: high vs low abandon (headline)",
+      "ratio_of_means": 18.88,
+      "ratio_of_medians": NaN
+    },
+    {
+      "comparison": "Cart users only (>= 3 cart-adds)",
+      "ratio_of_means": 2.32,
+      "ratio_of_medians": 2.29
+    },
+    {
+      "comparison": "Cart users, searches per session",
+      "ratio_of_means": 1.07,
+      "ratio_of_medians": 1.5
+    }
+  ],
+  "substitution": {
+    "all": {
+      "n": 255277,
+      "same_category_7d_pct": 21.0,
+      "any_purchase_7d_pct": 56.4
+    },
+    "high_abandon": {
+      "n": 147211,
+      "same_category_7d_pct": 20.2,
+      "any_purchase_7d_pct": 56.1
+    },
+    "moderate_abandon": {
+      "n": 103003,
+      "same_category_7d_pct": 22.6,
+      "any_purchase_7d_pct": 57.7
+    },
+    "low_abandon": {
+      "n": 5063,
+      "same_category_7d_pct": 12.5,
+      "any_purchase_7d_pct": 36.1
+    }
+  },
+  "price_quartiles": [
+    {
+      "price_quartile": 1,
+      "n": 112616,
+      "rate": 45.31,
+      "lo": 0,
+      "hi": 14,
+      "ci95": 0.29
+    },
+    {
+      "price_quartile": 2,
+      "n": 112616,
+      "rate": 42.73,
+      "lo": 14,
+      "hi": 33,
+      "ci95": 0.29
+    },
+    {
+      "price_quartile": 3,
+      "n": 112615,
+      "rate": 43.0,
+      "lo": 33,
+      "hi": 60,
+      "ci95": 0.29
+    },
+    {
+      "price_quartile": 4,
+      "n": 112616,
+      "rate": 42.28,
+      "lo": 60,
+      "hi": 99,
+      "ci95": 0.29
+    }
+  ],
+  "corr_price_abandonment": 0.03,
+  "price_chi2": {
+    "chi2": 252.1,
+    "p": 2.303110139466685e-54,
+    "cramers_v": 0.024
+  },
+  "categories": {
+    "n": 465,
+    "min": 28.5,
+    "p25": 51.6,
+    "median": 57.2,
+    "p75": 61.9,
+    "max": 85.2
+  },
+  "heart": {
+    "happiness": {
+      "metric": "proxy: unsuccessful search sessions (search, but nothing carted or bought)",
+      "search_sessions": 200587,
+      "search_success_pct": 46.5,
+      "unsuccessful_search_pct": 53.5,
+      "cart_regret_10min_pct": 13.0
+    },
+    "engagement": {
+      "metric": "median sessions per user / median searches per session",
+      "sessions_median": 7.0,
+      "searches_per_session_median": 0.08
+    },
+    "adoption": {
+      "metric": "proxy: share of purchasers who used the cart and search features",
+      "cart_pct": 73.5,
+      "search_pct": 52.1
+    },
+    "retention": {
+      "metric": "month-1 repeat purchase (Jul-Oct cohorts)",
+      "value_pct": 27.5,
+      "repeat_buyer_share_pct": 78.8
+    },
+    "task_success": {
+      "metric": "cart-to-purchase rate",
+      "value_pct": 43.3
+    }
+  },
+  "rice": [
+    {
+      "intervention": "Comparison tool for heavy searchers",
+      "job_to_be_done": "Help me compare options quickly so I can decide with confidence",
+      "reach": 8,
+      "impact": 8,
+      "confidence": 7,
+      "effort": 5,
+      "rice_score": 89.6
+    },
+    {
+      "intervention": "Reminders for items left in the cart",
+      "job_to_be_done": "Remind me about items I was seriously considering",
+      "reach": 6,
+      "impact": 7,
+      "confidence": 6,
+      "effort": 3,
+      "rice_score": 84.0
+    },
+    {
+      "intervention": "Better product info in high-abandon categories",
+      "job_to_be_done": "Give me what I need to decide without leaving the cart",
+      "reach": 5,
+      "impact": 8,
+      "confidence": 6,
+      "effort": 6,
+      "rice_score": 40.0
+    },
+    {
+      "intervention": "Personalised recommendations before cart-add",
+      "job_to_be_done": "Show me relevant options without extensive searching",
+      "reach": 9,
+      "impact": 6,
+      "confidence": 5,
+      "effort": 7,
+      "rice_score": 38.6
+    }
+  ]
+}
